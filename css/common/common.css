@@ -1,0 +1,16 @@
+top-imageview .top-imageview-root,
+top-imageview .top-imageview-root:hover {
+	border: 0;
+}
+.clickable,
+.clickable > input,
+.clickable > label{
+	cursor: pointer;
+}
+.ly-acTab > .top-linearlayout-root {
+	height: auto !important;
+	width: 100% !important;
+}
+.top-loader-overlay{
+	background-color: rgb(240, 240, 240);
+}

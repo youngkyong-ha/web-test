@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="res/app_icon_quickhelp_72.png">
+	<script src="libs/top.js/lib/lib.min.js"></script>
+	<script src="libs/top.js/core/top-core.min.js"></script>
+	<script src="libs/top.js/widget/top-widgets.js"></script>
+	<script id="top.js" src="libs/top.js/top-runtime.min.js"></script>
+	<!-- External Libraries -->
+	
+	
+	<script src="js/drawable.js?1567561457462"></script>
+	<script src="js/logic.js?1567561457462"></script>
+	<script src="src/common/library/polyfill.js?1567561457462"></script>
+	<script src="src/common/errorCtrl.js?1567561457462"></script>
+	<script src="src/common/component/router.js?1567561457462"></script>
+	<script src="src/common/app.js?1567561457462"></script>
+	<script src="src/common/utils/loader.js?1567561457462"></script>
+	<script src="src/common/utils/render.js?1567561457462"></script>
+	<script src="src/common/component/mainPage.js?1567561457462"></script>
+	<script src="src/common/quickhelp/faqRender.js?1567561457462"></script>
+	<script src="src/quickhelp/guideCtrl.js?1567561457462"></script>
+	<script src="src/common/quickhelp/mainRender.js?1567561457462"></script>
+	<script src="src/quickhelp/faqCtrl.js?1567561457462"></script>
+	<script src="src/quickhelp/mainCtrl.js?1567561457462"></script>
+	<script src="src/common/quickhelp/guideRender.js?1567561457462"></script>
+	<link rel="stylesheet" href="libs/top.js/chart/top.chart.css">
+	<link type="text/css" rel="stylesheet" href="libs/top.js/css/jquery-te-1.4.0.css">
+	
+	<!-- External Files -->
+</head>
+
+<body>
+	<top-page id="MainCommonPage" visible="none" src="MainCommonLayout.html?1567561457463"></top-page>
+	<script>
+		Top.App.create({
+			controller: "CommonLogic",
+			route: {
+				"/": {
+					activate: "MainCommonPage"
+				},
+				"/MainCommonPage": {
+					activate: "MainCommonPage"
+				}
+			},
+			config: "config.json"
+		});
+	</script>
+</body>
+
+</html>

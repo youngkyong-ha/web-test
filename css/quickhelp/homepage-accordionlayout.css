@@ -1,0 +1,39 @@
+/* default */
+top-accordionlayout.default top-accordiontab .top-accordionlayout-container>a{
+    padding: 0px 40px 0px 40px;
+    line-height: 60px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+top-accordionlayout.default top-accordiontab .top-accordionlayout-container>a.active{
+    color: #394889;
+}
+top-accordionlayout.default top-accordiontab .top-accordionlayout-container .top-accordionlayout-content{
+	border:0;
+    padding: 20px 60px 20px 60px;
+    background-color:#F5F5F5;
+}
+top-accordionlayout.default top-accordiontab .top-accordionlayout-container .top-accordionlayout-content a{
+    font-size: 15px;
+    color: #333333;
+}
+
+top-accordionlayout.default top-accordiontab:first-child .top-accordionlayout-container {
+    border-top-width: 1px;
+}
+top-accordionlayout.default .top-accordionlayout-title .top-accordionlayout-icon{
+	color: #9aa5b4;
+    float: right;
+    font-style: normal;
+    font-family: "tmaxop";
+    font-size: 15px;
+}
+top-accordionlayout.default .top-accordionlayout-title .top-accordionlayout-icon:before{
+	font-family: "tmaxop";
+    content: "\e911";
+}
+top-accordionlayout.default .top-accordionlayout-title.active .top-accordionlayout-icon:before{
+	font-family: "tmaxop";
+    content: "\e914";
+}

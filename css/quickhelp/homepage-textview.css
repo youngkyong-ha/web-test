@@ -1,0 +1,7 @@
+.tv--txtBtn > .top-textview-root {
+	cursor: pointer;
+}
+
+.tv--txtBtn > .top-textview-root:hover a {
+	color: #1E76D6 !important;
+}

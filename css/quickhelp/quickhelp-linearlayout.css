@@ -1,0 +1,16 @@
+top-linearlayout.ly-quickhelp-button>div:hover {
+	opacity: 0.97;
+	background: rgba(45,165,240,0.07);
+	border: 1px solid #11A1F7!important;
+}
+
+top-linearlayout.ly-quickhelp-imgBtn>div:hover {
+	background: #dcdcdc;
+}
+
+
+/* MainCommonLayout 밑 div 중앙정렬 되도록 */
+top-linearlayout#MainCommonLayout > div#MainCommonLayout {
+	 text-align: center !important;
+	 z-index:2 !important;
+}

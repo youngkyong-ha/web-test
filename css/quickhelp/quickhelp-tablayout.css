@@ -1,0 +1,61 @@
+/* custom */
+/* full header */
+top-tablayout.tab--default > .top-tablayout-root > .top-tablayout-container {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px solid #F5F5F5;
+    background-color: inherit;
+    cursor:default;
+}
+/* tab */
+top-tablayout.tab--default > .top-tablayout-root > .top-tablayout-container .tab_01.top-tablayout-tab {
+    /* border-top: 1px solid #c9cdd8; */
+    /* border-right: 1px solid #c9cdd8; */
+    border : 0px;
+    background-color: #fff;
+    color: #333333;
+    height: 30px;
+    padding: 0px 0px 35px 0px;
+    font-size : 16px
+}
+/* plus tab */
+top-tablayout.tab--default > .top-tablayout-root > .top-tablayout-container .tab_01.top-tablayout-plus {
+    border-top: 1px solid #c9cdd8;
+    border-right: 1px solid #c9cdd8;
+    background-color: #cbcdcf;
+    color: #6b748b;
+}
+/* tab hover */
+top-tablayout.tab--default > .top-tablayout-root > .top-tablayout-container .tab_01.top-tablayout-tab:hover,
+top-tablayout.tab--default > .top-tablayout-root > .top-tablayout-container .tab_01.top-tablayout-plus:hover {
+    /* background-color: #e5e8f0; */
+    color: #394889;
+    font-weight:bold;
+    font-size : 16px
+}
+/* tab active */
+top-tablayout.tab--default > .top-tablayout-root > .top-tablayout-container .tab_01.top-tablayout-tab.active,
+top-tablayout.tab--default > .top-tablayout-root > .top-tablayout-container .tab_01.top-tablayout-tab.active:hover {
+    /* border: 1px solid #4A345C; */
+    /* background-color: #4A345C; */
+    color: #394889;
+    font-weight:bold;
+    font-size : 16px;
+    padding: 0px 0px 33px 0px;
+	border-bottom: 2px solid #394889;
+}
+/* set table center */
+top-tablayout.tab--default>div>.top-tablayout-container>.top-tablayout-table{
+	width:auto;
+	margin:auto;
+	cursor:pointer;
+}
+/* delete right empty tab menu */
+top-tablayout.tab--default table tr > td:last-child{
+	width:0px;
+}
+top-tablayout.tab--default table tr > td:last-child > div{
+	width:0px;
+    min-width : 0px;
+}

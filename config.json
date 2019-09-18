@@ -1,0 +1,16 @@
+{
+	"name" : "Quick Help",
+	"developer" : "",
+	"indexPageId" : "MainCommonPage",
+	"css": ["libs/top_ide.css", "css/quickhelp/homepage-ignoreOutline.css?1567561457486", "css/quickhelp/quickhelp-linearlayout.css?1567561457486", "css/quickhelp/homepage-accordionlayout.css?1567561457486", "css/quickhelp/quickhelp-tablayout.css?1567561457486", "css/quickhelp/homepage-textview.css?1567561457486", "css/common/common.css?1567561457486", "css/common/font.css?1567561457486"],
+	"compatibleWithTOP": "true",
+	"appId":"Common",
+	"appName":"",
+	"appVersion":"1.0.0.0"
+	,
+	"deploy": {
+		"common": false,
+		"useDefaultFont": false
+	},
+	"closeDialogToBrowserBack": false
+}
